@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: green;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+/*a:visited {
+  color: orange;
+}*/
+
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+  /*font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;*/
+  font: normal 16px, Arial, Helvetica, sans-serif;
+  line-height: 1.2em;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+.button:hover {
+  background: red;
+  color: white;
+}
+
+.clr {
+  clear: both;
+}
+
+.box-1 {
+  background-color: #bbb;
+  color: #fff;
+  /*border-right: 5px red solid;
+border-left: 5px red solid;
+border-left: 5px red solid;
+border-left: 5px red solid;
+border-width: 3px;
+border-bottom-width: 10px;
+border-top-style: dotted;*/
+  border: 5px red solid;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.box-1 h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+  padding-bottom: 10px;
+}
+
+.box-2 {
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+#main-block {
+  padding-top: 20px;
+  float:left;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+#side-bar {
+  padding-top: 20px;
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 20px;
+  position: relative;
+  background-image: url("../images/duck.jpg");
+  background-position: 100px 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
+
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+.categories {
+  border: 1px #ccc solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  padding: 0 10px;
+  list-style: square;
+}
+
+.categories li {
+  padding-bottom: 8px;
+/* border: dotted 1px #333;*/
+}
+
+.form-1 {
+  padding: 20px;
+
+}
+
+.form-1 .form-group {
+  padding-bottom: 5px;
+}
+
+.form-1 label {
+  display: block;
+}
+
+.form-1 input[type="text"], .form-1 textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.fix-me {
+  position: fixed;
+  top: 400px;
+  left: 0px;
+}
+
+.list li:first-child{
+  background: red;
+}
+
+.list li:last-child {
+  background: blue;
+}
+
+.list li:nth-child(5) {
+  background: yellow;
+}
+
+.list li:nth-child(even) {
+  background: orange;
+}
